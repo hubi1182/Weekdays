@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string weekday[7];
+
+    for (int i = 0; i <= 6; i++)
+    {
+        cout << "Bitte geben Sie einen Wochentag ein: \n" << endl;
+
+        cin >> weekday[i];
+    }
+
+    for (int i = 0; i <= 6; i++)
+    {
+        cout << weekday[i] << "\n" << endl;
+    }
+
+    return 0;
+}
